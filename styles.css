@@ -127,6 +127,10 @@ h2 {
     padding: 20px;
 }
 
+#socials h2 {
+    text-align: center; 
+}
+
 .btn-container {
     display: flex;
     justify-content: center;
