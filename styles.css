@@ -25,6 +25,10 @@ header {
     font-size: 1.5em;
     font-weight: bold;
 }
+header p{
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
 
 .foto-perfil{
     width: 150px;
@@ -95,33 +99,26 @@ h2 {
     text-align: left;
 }
 
-#ActiveOne h2,
-#ActiveOne h3,
-#ActiveOne h4 {
-    margin: 5px 0;
-    padding: 0;
-}
-#ActiveOne p {
-    margin: 5px 0;
-    padding: 0;
-    text-align: justify;
+h3{
+    color: #2c3e50;
+    font-weight: bolder;
+    font-size: 1.4em;
 }
 
-#MRM h2,
-#MRM h4,
-#MRM p {
-    margin: 5px 0;
-    padding: 0;
+h4{
+    color: #2c3e50;
+    font-weight: bolder;
+    margin: 10px 0;
+    padding: 0px;
+    font-size: 1.1em;
 }
 
-#WizenzTechnologies h2,
-#WizenzTechnologies h4,
-#WizenzTechnologies p {
+p{
     margin: 5px 0;
-    padding: 0;
+    padding: 0 5px;
 }
 
-/* SOCIALS */
+/*  SOCIALS */
 #socials {
     text-align: center;
     padding: 20px;
@@ -130,6 +127,29 @@ h2 {
 #socials h2 {
     text-align: center; 
 }
+
+section li  {
+    list-style: none;
+    position: relative;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+section li::before {
+    content: "✔"; /* Puedes usar otro símbolo como "➤" o "•" */
+    position: relative;
+    left: 0;
+    color: #2c3e50; /* Color del icono */
+    font-weight: bold;
+    margin: 5px ;
+}
+
+#tech-stack ul li{
+    display: inline;
+    text-align: left;
+    margin: 0 10px;
+}
+
 
 .btn-container {
     display: flex;
