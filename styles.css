@@ -1,6 +1,7 @@
 /* Estilos generales */
 html {
     height: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -14,6 +15,7 @@ body {
     align-items: center;
     animation: fadeIn 1s ease-in-out;
     height: 100%;
+
 }
 
 /* HEADER */
@@ -88,7 +90,7 @@ section {
     animation: fadeIn 1s ease-in-out forwards;
 }
 
-h1{
+h1 {
     margin-bottom: 0px;
 }
 
